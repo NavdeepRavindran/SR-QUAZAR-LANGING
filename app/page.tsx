@@ -251,7 +251,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <p className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 ml-1">
+              <p>
                 SR QUAZAR SOLUTIONS
               </p>
 
