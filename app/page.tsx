@@ -251,9 +251,10 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <p style={{ fontFamily: "var(--font-geist-mono)", color: "#ffffff" }}>
-               SR QUAZAR SOLUTIONS
+              <p className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 ml-1">
+                SR QUAZAR SOLUTIONS
               </p>
+
             </motion.h1>
           </div>
           <div className="flex items-center">
@@ -943,7 +944,7 @@ export default function Home() {
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 mx-auto mb-6 flex items-center justify-center p-1 group-hover:scale-105 transition-transform">
                   <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                     <Image
-                      src="/team/FOUNDER.jpg.jpg"
+                      src="/team/FOUNDER.jpg"
                       alt="Founder"
                       width={128}
                       height={128}
