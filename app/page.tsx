@@ -251,7 +251,9 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <p style={{ fontFamily: "var(--font-geist-mono)" }, {color: "#ffffff"}}>SR QUAZAR SOLUTIONS</p>
+              <p style={{ fontFamily: "var(--font-geist-mono)", color: "#ffffff" }}>
+               SR QUAZAR SOLUTIONS
+              </p>
             </motion.h1>
           </div>
           <div className="flex items-center">
