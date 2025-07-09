@@ -943,7 +943,7 @@ export default function Home() {
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 mx-auto mb-6 flex items-center justify-center p-1 group-hover:scale-105 transition-transform">
                   <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                     <Image
-                      src="/team/co-founder.jpg"
+                      src="/team/FOUNDER.jpg.jpg"
                       alt="Founder"
                       width={128}
                       height={128}
